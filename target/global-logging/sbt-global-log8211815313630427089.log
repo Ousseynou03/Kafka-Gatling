@@ -1,0 +1,160 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Amazon.com Inc. Java 17.0.6)
+[debug]       Load.loadUnit: plugins took 123.603283ms
+[debug]       Load.loadUnit: defsScala took 0.427215ms
+[debug] [Loading] Scanning directory /home/dione/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/dione/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 39.340908 ms
+[debug]           Load.resolveProject(global-plugins) took 117.705771ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/dione/.sbt/1.0/plugins, plugins: List(<none>))) took 187.031787ms
+[debug] [Loading] Done in /home/dione/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 244.572291ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.447334ms
+[debug]     Load.loadUnit(file:/home/dione/.sbt/1.0/plugins/, ...) took 383.793042ms
+[debug]   Load.apply: load took 771.814875ms
+[debug]   Load.apply: resolveProjects took 15.07091ms
+[debug]   Load.apply: finalTransforms took 106.595558ms
+[debug]   Load.apply: config.delegates took 8.842238ms
+[debug]   Load.apply: Def.make(settings)... took 753.385238ms
+[debug]   Load.apply: structureIndex took 154.448559ms
+[debug]   Load.apply: mkStreams took 2.014551ms
+[info] loading global plugins from /home/dione/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3626.289952ms
+[debug]                 Load.loadUnit: plugins took 23.497259ms
+[debug]                 Load.loadUnit: defsScala took 0.028978ms
+[debug] [Loading] Scanning directory /home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo/project/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.461261 ms
+[debug]                     Load.resolveProject(gatling-sbt-plugin-demo-build-build) took 1.996766ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id gatling-sbt-plugin-demo-build-build, base: /home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo/project/project, plugins: List(<none>))) took 6.52576ms
+[debug] [Loading] Done in /home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo/project/project, returning: (gatling-sbt-plugin-demo-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 9.593289ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 0.021391ms
+[debug]               Load.loadUnit(file:/home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo/project/project/, ...) took 34.294375ms
+[debug]             Load.apply: load took 36.781248ms
+[debug]             Load.apply: resolveProjects took 0.17436ms
+[debug]             Load.apply: finalTransforms took 22.695923ms
+[debug]             Load.apply: config.delegates took 0.711265ms
+[debug]             Load.apply: Def.make(settings)... took 171.448052ms
+[debug]             Load.apply: structureIndex took 73.949228ms
+[debug]             Load.apply: mkStreams took 0.004276ms
+[info] loading project definition from /home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 1321.273806ms
+[debug]           Load.loadUnit: defsScala took 0.005487ms
+[debug] [Loading] Scanning directory /home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo/project
+[debug]             Load.loadUnit: mkEval took 9.667207ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.893194 ms
+[info] loading settings for project gatling-sbt-plugin-demo-build from plugins.sbt ...
+[debug]               Load.resolveProject(gatling-sbt-plugin-demo-build) took 3.585988ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id gatling-sbt-plugin-demo-build, base: /home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo/project, plugins: List(<none>))) took 7.270691ms
+[debug] [Loading] Done in /home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo/project, returning: (gatling-sbt-plugin-demo-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 177.98689ms
+[debug]           Load.loadUnit: cleanEvalClasses took 3.825986ms
+[debug]         Load.loadUnit(file:/home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo/project/, ...) took 1504.100886ms
+[debug]       Load.apply: load took 1505.923068ms
+[debug]       Load.apply: resolveProjects took 0.182508ms
+[debug]       Load.apply: finalTransforms took 18.223526ms
+[debug]       Load.apply: config.delegates took 0.569886ms
+[debug]       Load.apply: Def.make(settings)... took 151.75016ms
+[debug]       Load.apply: structureIndex took 61.484971ms
+[debug]       Load.apply: mkStreams took 0.003042ms
+[info] loading project definition from /home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2010.792066ms
+[debug]     Load.loadUnit: defsScala took 0.005657ms
+[debug] [Loading] Scanning directory /home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo
+[debug]       Load.loadUnit: mkEval took 0.227766ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(io.gatling.sbt.GatlingPlugin), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(io.gatling.sbt.GatlingPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,io.gatling.sbt.GatlingPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.229124 ms
+[info] loading settings for project gatling-sbt-plugin-demo from build.sbt ...
+[debug]         Load.resolveProject(gatling-sbt-plugin-demo) took 55.348566ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id gatling-sbt-plugin-demo, base: /home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo, plugins: List(<none>))) took 60.434391ms
+[debug] [Loading] Done in /home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo, returning: (gatling-sbt-plugin-demo)
+[debug]     Load.loadUnit: loadedProjectsRaw took 198.987475ms
+[debug]     Load.loadUnit: cleanEvalClasses took 6.165464ms
+[debug]   Load.loadUnit(file:/home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo/, ...) took 2216.954283ms
+[debug] Load.apply: load took 2219.443197ms
+[debug] Load.apply: resolveProjects took 0.211857ms
+[debug] Load.apply: finalTransforms took 21.646127ms
+[debug] Load.apply: config.delegates took 0.830303ms
+[debug] Load.apply: Def.make(settings)... took 180.363023ms
+[debug] Load.apply: structureIndex took 61.631366ms
+[debug] Load.apply: mkStreams took 0.004109ms
+[info] set current project to gatling-sbt-plugin-demo (in build file:/home/dione/Documents/Projet/ProjetDaouda/TestPerformance/gatling-sbt-plugin-demo/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/dione/.sbt/1.0/server/05aaf15e6e55f8b343e2/sock
+[debug] Writing bsp connection file
+[info] started sbt server

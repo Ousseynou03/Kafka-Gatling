@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.ProducerSimulation2",
+  "simulationId": "producersimulation2-20230409042200177",
+  "start": 1681014121931,
+  "description": "",
+  "scenarios": ["SEND MESSAGE"],
+  "assertions": [
+
+  ]
+}

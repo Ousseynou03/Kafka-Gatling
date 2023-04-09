@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.kafka:kafka-streams-scala_2.13:7.3.0-ce:jar" external-system-id="SBT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/packages.confluent.io/maven/org/apache/kafka/kafka-streams-scala_2.13/7.3.0-ce/kafka-streams-scala_2.13-7.3.0-ce.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/packages.confluent.io/maven/org/apache/kafka/kafka-streams-scala_2.13/7.3.0-ce/kafka-streams-scala_2.13-7.3.0-ce-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
