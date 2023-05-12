@@ -55,6 +55,9 @@ class KafkaSimulation extends Simulation {
         .send[String]("Hello, World!")
     )
     .pause(1 second)
+
+
+
   setUp(scnSendMessage.inject(atOnceUsers(10)).protocols(kafkaConf))
 
 
