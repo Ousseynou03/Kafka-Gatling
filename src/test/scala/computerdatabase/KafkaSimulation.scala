@@ -41,13 +41,7 @@ class KafkaSimulation extends Simulation {
   val kafkaConsumer = new KafkaConsumer[String, String](kafkaConsumerConf)
   kafkaConsumer.subscribe(java.util.Collections.singletonList(kafkaTopic))
 
-  before {
-    kafkaConsumer.poll(0)
-  }
 
-  after {
-    kafkaConsumer.close()
-  }
 
   val scnSendMessage = scenario("Kafka Simulation")
     .exec(
@@ -56,7 +50,13 @@ class KafkaSimulation extends Simulation {
     )
     .pause(1 second)
 
+  before {
+    kafkaConsumer.poll(0)
+  }
 
+  after {
+    kafkaConsumer.close()
+  }
 
   setUp(scnSendMessage.inject(atOnceUsers(10)).protocols(kafkaConf))
 

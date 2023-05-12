@@ -42,6 +42,8 @@ class KafkaSimulationFeed extends Simulation{
 
   val kafkaTopic = "newVerifyTopic"
   val kafkaBootstrapServer = "51.77.132.116:9092"
+
+
   val kafkaConf: KafkaProtocol = kafka
     .topic("newVerifyTopic")
     .properties(
@@ -49,7 +51,7 @@ class KafkaSimulationFeed extends Simulation{
         ProducerConfig.ACKS_CONFIG -> "1",
         ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG -> "org.apache.kafka.common.serialization.StringSerializer",
         ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG -> "org.apache.kafka.common.serialization.StringSerializer",
-        ProducerConfig.BOOTSTRAP_SERVERS_CONFIG -> "51.77.132.116:9092",
+        ProducerConfig.BOOTSTRAP_SERVERS_CONFIG -> kafkaBootstrapServer,
       )
     )
 
@@ -65,14 +67,7 @@ class KafkaSimulationFeed extends Simulation{
   val kafkaConsumer = new KafkaConsumer[String, String](kafkaConsumerConf)
   kafkaConsumer.subscribe(java.util.Collections.singletonList(kafkaTopic))
 
-  before {
-    kafkaConsumer.poll(0)
-  }
-
-  after {
-    kafkaConsumer.close()
-  }
-
+//Scenario
   val scnSendMessage = scenario("Kafka Simulation Feed")
     .exec(flushSessionCookies)
     .exec(flushHttpCache)
@@ -88,8 +83,15 @@ class KafkaSimulationFeed extends Simulation{
       kafka("Kafka Request")
         .send[String]("${Message}")
     )
-    .pause(1 second)
+    .pause(TpsPause second)
 
+  before {
+    kafkaConsumer.poll(0)
+  }
+
+  after {
+    kafkaConsumer.close()
+  }
 
   setUp(
     scnSendMessage.inject(rampUsers(nbVu * 3) during (TpsMonteEnCharge minutes), nothingFor(TpsPalier minutes)),
