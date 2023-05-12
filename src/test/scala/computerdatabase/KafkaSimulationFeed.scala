@@ -1,0 +1,6 @@
+package computerdatabase
+
+class KafkaSimulationFeed {
+
+
+}

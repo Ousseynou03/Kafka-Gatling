@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.KafkaSimulation",
+  "simulationId": "kafkasimulation-20230512201045729",
+  "start": 1683922245909,
+  "description": "",
+  "scenarios": ["Kafka Simulation"],
+  "assertions": [
+
+  ]
+}

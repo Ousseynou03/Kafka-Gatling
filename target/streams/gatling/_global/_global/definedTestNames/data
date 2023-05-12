@@ -1,1 +1,1 @@
-["computerdatabase.ComputerDatabaseSimulation","computerdatabase.ProducerSimulation","computerdatabase.ProducerSimulation2"]
+["computerdatabase.ProducerSimulation","computerdatabase.KafkaSimulation"]

@@ -1,0 +1,130 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Amazon.com Inc. Java 11.0.19)
+[debug] Load.defaultLoad until apply took 152.082214ms
+[debug]                 Load.loadUnit: plugins took 137.031691ms
+[debug]                 Load.loadUnit: defsScala took 0.514337ms
+[debug] [Loading] Scanning directory /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/project/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 27.076805 ms
+[debug]                     Load.resolveProject(kafka-gatling-build-build) took 79.718032ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id kafka-gatling-build-build, base: /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/project/project, plugins: List(<none>))) took 156.952575ms
+[debug] [Loading] Done in /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/project/project, returning: (kafka-gatling-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 192.433778ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 0.422006ms
+[debug]               Load.loadUnit(file:/home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/project/project/, ...) took 338.987862ms
+[debug]             Load.apply: load took 689.594254ms
+[debug]             Load.apply: resolveProjects took 11.222682ms
+[debug]             Load.apply: finalTransforms took 100.114024ms
+[debug]             Load.apply: config.delegates took 10.745401ms
+[debug]             Load.apply: Def.make(settings)... took 570.929426ms
+[debug]             Load.apply: structureIndex took 121.436691ms
+[debug]             Load.apply: mkStreams took 2.939357ms
+[info] loading project definition from /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/project/project/target/scala-2.12/sbt-1.0/classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.17. Compiling...
+[info]   Compilation completed in 11.372s.
+[info] done compiling
+[debug]           Load.loadUnit: plugins took 18273.073767ms
+[debug]           Load.loadUnit: defsScala took 0.006297ms
+[debug] [Loading] Scanning directory /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/project
+[debug]             Load.loadUnit: mkEval took 7.749336ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.560852 ms
+[info] loading settings for project kafka-gatling-build from plugins.sbt ...
+[debug]               Load.resolveProject(kafka-gatling-build) took 2.606468ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id kafka-gatling-build, base: /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/project, plugins: List(<none>))) took 4.708698ms
+[debug] [Loading] Done in /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/project, returning: (kafka-gatling-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 1873.222484ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.776181ms
+[debug]         Load.loadUnit(file:/home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/project/, ...) took 20149.014206ms
+[debug]       Load.apply: load took 20150.867077ms
+[debug]       Load.apply: resolveProjects took 0.111107ms
+[debug]       Load.apply: finalTransforms took 13.740203ms
+[debug]       Load.apply: config.delegates took 0.352034ms
+[debug]       Load.apply: Def.make(settings)... took 99.871754ms
+[debug]       Load.apply: structureIndex took 32.036226ms
+[debug]       Load.apply: mkStreams took 0.003009ms
+[info] loading project definition from /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 25646.990885ms
+[debug]     Load.loadUnit: defsScala took 0.003788ms
+[debug] [Loading] Scanning directory /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling
+[debug]       Load.loadUnit: mkEval took 0.201507ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(io.gatling.sbt.GatlingPlugin), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(io.gatling.sbt.GatlingPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,io.gatling.sbt.GatlingPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.092953 ms
+[info] loading settings for project kafka-gatling from build.sbt ...
+[debug]         Load.resolveProject(kafka-gatling) took 53.154869ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id kafka-gatling, base: /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling, plugins: List(<none>))) took 56.956518ms
+[debug] [Loading] Done in /home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling, returning: (kafka-gatling)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3729.871466ms
+[debug]     Load.loadUnit: cleanEvalClasses took 9.34665ms
+[debug]   Load.loadUnit(file:/home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/, ...) took 29387.914413ms
+[debug] Load.apply: load took 29417.670112ms
+[debug] Load.apply: resolveProjects took 0.142572ms
+[debug] Load.apply: finalTransforms took 11.974875ms
+[debug] Load.apply: config.delegates took 0.607469ms
+[debug] Load.apply: Def.make(settings)... took 163.931238ms
+[debug] Load.apply: structureIndex took 40.206548ms
+[debug] Load.apply: mkStreams took 0.003269ms
+[info] set current project to kafka-gatling (in build file:/home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/dione/.sbt/1.0/server/01944fec37f25e69c70a/sock
+[debug] Writing bsp connection file
+[info] started sbt server

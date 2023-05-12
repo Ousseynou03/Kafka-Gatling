@@ -1,2 +1,5 @@
 [0m[[0m[33mwarn[0m] [0m[0m-target is deprecated: Use -release instead to compile against the correct platform API.[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/dione/Documents/ProjetDaouda/Test_performance/Kafka-Gatling/src/test/scala/computerdatabase/KafkaSimulation.scala:45:19: method poll in class KafkaConsumer is deprecated[0m
+[0m[[0m[33mwarn[0m] [0m[0m    kafkaConsumer.poll(0)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
